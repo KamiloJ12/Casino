@@ -1,33 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: verdana;
-  }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: verdana;
+    }
   
   
-  
-  body{
+body{
     min-height: 100vh;
-   
-  }
-  header .brand img{
-    height: 60px;
-  }
-  .section-main{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)); 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 80px;
-  
-    
-  }
+}
+
+header .brand img{
+  height: 60px;
+}
+
+.section-main{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 80px;
+}
   
   .section-main h1{
     color: rgba(255, 255, 255, 0.8);
