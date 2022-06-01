@@ -180,10 +180,16 @@ header .menu a{
 }
 
 
- .grid .x {
-  color: #000;
+.grid-torneo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px 13.5px;
+  padding: 70px 100px;
+  background-color: rgb(22, 22, 22);
+  min-height: 100vh;
 } 
- .card .x {
+
+.card-torneo {
   border-radius: 12px;
   border: 0 none;
  
@@ -208,4 +214,8 @@ header .menu a{
 
 .card:hover .content {
   opacity: 1;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 20px orange;
 }
