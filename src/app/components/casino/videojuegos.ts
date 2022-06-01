@@ -28,6 +28,21 @@ export const videojuegos = [
     },
     {
         imagen: '../../../assets/image/img10.jpg',   
+    },
+    {   
+        imagen: '../../../assets/image/img11.jpeg',   
+    },
+    {
+        imagen: '../../../assets/image/img12.jpeg',   
+    },
+    {
+        imagen: '../../../assets/image/img13.jpeg',   
+    },
+    {
+        imagen: '../../../assets/image/img14.jpeg',   
+    },
+    {
+        imagen: '../../../assets/image/img15.jpeg',   
     }
 
 ]
