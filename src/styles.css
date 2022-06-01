@@ -183,17 +183,21 @@ header .menu a{
 .grid-torneo {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 10px 13.5px;
-  padding: 70px 100px;
+  row-gap: 40px;
+  padding: 60px 100px;
   background-color: rgb(22, 22, 22);
   min-height: 100vh;
 } 
 
 .card-torneo {
+  width: 1165px;
   border-radius: 12px;
   border: 0 none;
- 
 } 
+
+.card-torneo img {
+  border-radius: 12px;
+}
 
 .content {
   width: 100%;
