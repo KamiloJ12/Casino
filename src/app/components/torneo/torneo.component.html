@@ -1,5 +1,13 @@
 <div class="grid-torneo">
-    <div class="card-torneo" *ngFor="let data of videojuegos" >
-      <img src={{data.imagen}} class="card-img-top" alt="..." >
-    </div>
+  <div *ngFor="let data of videojuegos">
+      <!-- <div class="card-torneo">
+        <img src={{data.imagen}} class="card-img-top" alt="..." >
+      </div> -->
+
+      <div class="card-torneo" style="--i:url({{data.imagen}})">
+        <div>
+
+        </div>
+      </div>
+  </div>
 </div>

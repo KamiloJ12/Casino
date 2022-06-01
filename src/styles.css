@@ -68,17 +68,17 @@ letter-spacing: 2px;
 }
 
 header .menu{
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header .menu ul{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header .menu ul li{
@@ -86,72 +86,73 @@ header .menu ul li{
 }
 
 header .menu a{
-color: #fff;
-font-weight: 600;
-text-transform: uppercase;
-font-size: 16px;
-font-weight: 500;
-text-decoration: none;
-margin: 0 30px;
-padding: 7px 12px;
-border-radius: 20px;
-transition: 0.3s;
-transition-property: color, background;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 7px 12px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: color, background;
 }
+
 
 header .menu a:hover{
-color: #000;
-background: #fff;
+  color: #000;
+  background: #fff;
 }
 
-header .btn{
-color: #fff;
-font-size: 25px;
-cursor: pointer;
-display: none;
+header .btn-menu{
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
 }
 
 @media (max-width: 991px){
-header, header.down{
-    padding: 20px 40px;
-}
-header .btn{
-  display: block;
-}
+  header, header.down{
+      padding: 20px 40px;
+  }
+  header .btn{
+    display: block;
+  }
 
-header .menu{
-  position: fixed;
-  background: #2e3333;
-  min-width: 330px;
-  height: 100vh;
-  top: 0;
-  right: -100%;
-  padding: 80px 50px;
-  transition: 0.5s;
-  transition-property: right;
-}
+  header .menu{
+    position: fixed;
+    background: #2e3333;
+    min-width: 330px;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    padding: 80px 50px;
+    transition: 0.5s;
+    transition-property: right;
+  }
 
-header .menu ul{
-    flex-direction: column;
-}
+  header .menu ul{
+      flex-direction: column;
+  }
 
-header .menu.active{
-  right: 0;
-}
+  header .menu.active{
+    right: 0;
+  }
 
-header .menu .close-btn{
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 25px;
-}
+  header .menu .close-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 25px;
+  }
 
-header .menu a{
-  display: block;
-  font-size: 20px;
-  margin: 20px;
-  padding: 0 15px;
-}
+  header .menu a{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 600px){
@@ -193,11 +194,9 @@ header .menu a{
   width: 1165px;
   border-radius: 12px;
   border: 0 none;
+  background: var(--i);
+  background-size:contain;
 } 
-
-.card-torneo img {
-  border-radius: 12px;
-}
 
 .content {
   width: 100%;
