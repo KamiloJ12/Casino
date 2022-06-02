@@ -81,12 +81,12 @@
             <div class="slide-controls">
               <input type="radio" name="slide" id="login" checked>
               <input type="radio" name="slide" id="signup">
-              <label for="login" class="slide login">Iniciar</label>
-              <label for="signup" class="slide signup">Registrarse</label>
+              <label for="login" class="slide login" (click)="login()">Iniciar</label>
+              <label for="signup" class="slide signup" (click)="signup()">Registrarse</label>
               <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-              <form action="#" class="login">
+              <form action="#" class="login" [style.marginLeft]="marginLeft">
                 <div class="field">
                   <input type="text" placeholder="Correo electronico" required>
                 </div>
@@ -98,7 +98,7 @@
                   <div class="btn-layer"></div>
                   <input type="submit" value="Login">
                 </div>
-                <div class="signup-link" style="color: white;">No eres miembro? <a href="">Registrate ahora</a></div>
+                <div class="signup-link" style="color: white;">No eres miembro? <a (click)="signup()">Registrate ahora</a></div>
               </form>
               <form action="#" class="signup">
                 <div class="field">

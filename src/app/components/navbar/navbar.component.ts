@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  public marginLeft = "";
   constructor() { }
 
   ngOnInit(): void {
@@ -20,4 +21,13 @@ export class NavbarComponent implements OnInit {
   close(): void {
     document.querySelector('.menu')?.classList.remove('active');
   }
+
+  signup(): void{
+    this.marginLeft = "-50%";
+  }
+
+  login(): void{
+    this.marginLeft = "0%";
+  }
+
 }
