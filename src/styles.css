@@ -192,10 +192,13 @@ header .btn-menu{
 
 .card-torneo {
   width: 1165px;
+  height: 400px;
   border-radius: 12px;
   border: 0 none;
-  background: var(--i);
-  background-size:contain;
+  background-image: var(--i);
+  background-position:center center; /*respecto a body*/
+  background-repeat: no-repeat;
+  background-size:initial;
 } 
 
 .content {
