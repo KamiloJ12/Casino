@@ -235,6 +235,12 @@ header .btn-menu{
   height: 100%;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 html, body{
   display: grid;
   height: 100%;
