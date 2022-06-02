@@ -4,7 +4,7 @@
     </a>
     <nav class="menu">
       <div class="btn-menu">
-        <i class="fas fa-times close-btn" onclick="close()"></i>
+        <i class="fas fa-times close-btn" (click)="close()"></i>
       </div>
       <ul>
         <li><a [routerLink]="['']" routerLinkActive="active">Casino</a></li>
@@ -15,7 +15,7 @@
       </ul>
     </nav>
     <div class="btn-menu">
-      <i class="fas fa-bars menu-btn" onclick="open()"></i>
+      <i class="fas fa-bars menu-btn" (click)="open()"></i>
     </div>
 </header>
 
