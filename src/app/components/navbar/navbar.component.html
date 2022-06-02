@@ -11,7 +11,7 @@
         <li><a [routerLink]="['/casinoEnVivo']" routerLinkActive="active">Casino En Vivo</a></li>
         <li><a [routerLink]="['/torneo']" routerLinkActive="active">Torneos</a></li>
         <li><a [routerLink]="['/soporte']">Soporte</a></li>
-        <li><button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#sesionModal">Inicio</button></li>
+        <li><button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#sesionModal">Iniciar sesion</button></li>
       </ul>
     </nav>
     <div class="btn-menu">
@@ -66,39 +66,39 @@
 <div class="modal fade" id="sesionModal" tabindex="-1" aria-labelledby="sesionModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="sesionModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-header" style="display: flex; align-items: center;">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: orange;background-color: orange;"></button>
       </div>
       <div class="modal-body">
         
         <div class="wrapper">
           <div class="title-text">
-            <div class="title login">Login Form</div>
+            <div class="title login" style="color: white">Acceder</div>
             <div class="title signup">Signup Form</div>
           </div>
           <div class="form-container">
             <div class="slide-controls">
               <input type="radio" name="slide" id="login" checked>
               <input type="radio" name="slide" id="signup">
-              <label for="login" class="slide login">Login</label>
-              <label for="signup" class="slide signup">Signup</label>
+              <label for="login" class="slide login">Iniciar</label>
+              <label for="signup" class="slide signup">Registrarse</label>
               <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
               <form action="#" class="login">
                 <div class="field">
-                  <input type="text" placeholder="Email Address" required>
+                  <input type="text" placeholder="Correo electronico" required>
                 </div>
                 <div class="field">
-                  <input type="password" placeholder="Password" required>
+                  <input type="password" placeholder="Contraseña" required>
                 </div>
-                <div class="pass-link"><a href="#">Forgot password?</a></div>
+                <div class="pass-link"><a href="#">Olvidaste tu contraseña?</a></div>
                 <div class="field btn">
                   <div class="btn-layer"></div>
                   <input type="submit" value="Login">
                 </div>
-                <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+                <div class="signup-link" style="color: white;">No eres miembro? <a href="">Registrate ahora</a></div>
               </form>
               <form action="#" class="signup">
                 <div class="field">
@@ -120,10 +120,7 @@
         </div>
 
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+     
     </div>
   </div>
 </div>
