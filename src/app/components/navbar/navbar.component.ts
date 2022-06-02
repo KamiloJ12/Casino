@@ -13,4 +13,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  open(): void {
+    document.querySelector('.menu')?.classList.add('active');
+  }
+
+  close(): void {
+    document.querySelector('.menu')?.classList.remove('active');
+  }
 }
