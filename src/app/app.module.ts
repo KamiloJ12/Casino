@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CasinoComponent } from './components/casino/casino.component';
 import { CasinoEnVivoComponent } from './components/casino-en-vivo/casino-en-vivo.component';
 import { TorneoComponent } from './components/torneo/torneo.component';
+import { SoporteComponent } from './components/soporte/soporte.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TorneoComponent } from './components/torneo/torneo.component';
     NavbarComponent,
     CasinoComponent,
     CasinoEnVivoComponent,
-    TorneoComponent
+    TorneoComponent,
+    SoporteComponent
   ],
   imports: [
     BrowserModule,
