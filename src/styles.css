@@ -113,7 +113,7 @@ header .btn-menu{
   display: none;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1300px){
   header, header.down{
       padding: 20px 40px;
   }
